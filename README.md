@@ -20,10 +20,12 @@ pip install virtualenv
    pip install virtualenvwrapper-win(windows) 
 
 
-#crear virtualenv:
+# crear virtualenv:
 
-mkvirtualenv #tiendaeclipse -p C:\Python34\python.exe
-#activate: 
+(tiendaeclipse) es el nombre del ambiente virtual
+
+mkvirtualenv tiendaeclipse -p C:\Python34\python.exe
+# activate: 
 
 workon tiendaeclipse
 
