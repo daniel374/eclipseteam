@@ -1,17 +1,17 @@
 # eclipseteam
+# Description project:
+
 backend for EclipseShop project of E-commerce, this made with django-rest-framework and postgresql
 
-DJANGO REST FRAMEWORK
-API-REST de los planes, login
+# DJANGO REST FRAMEWORK
+API-REST de las prendas, login
 
-Install backend Desparche
-
-
-Download python version 3.4 LTS
-install environment virtual:
+## Install backend Desparche
 
 
+/1. Download python version 3.4 LTS
 
+# install environment virtual:
 
 pip install virtualenv
 
@@ -20,15 +20,19 @@ pip install virtualenv
    pip install virtualenvwrapper-win(windows) 
 
 
-crear virtualenv: mkvirtualenv Bkdesparche -p C:\Python34\python.exe
-activate: workon Bkdesparche
-Dentro del directorio del repo clonado Bkdesparche, instalar tools:
+#crear virtualenv:
 
+mkvirtualenv #tiendaeclipse -p C:\Python34\python.exe
+#activate: 
+
+workon tiendaeclipse
+
+# Dentro del directorio del repo clonado eclipseteam, instalar tools:
 
 pip install -r requeriments.txt
 
 
-por ultimo correr el servidor:
+# por ultimo correr el servidor:
 
 
 python manage.py runserver
